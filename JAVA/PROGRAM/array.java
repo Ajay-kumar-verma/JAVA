@@ -1,6 +1,7 @@
+package PROGRAM;
 import java.util.Scanner;
-public class stringarray {
-  static String a[]= new String[20]; 
+public class array {
+  static int a[]= new int[20]; 
   static Scanner sc= new Scanner(System.in);
   static int count =0;
   public static void main(String[] args) {
@@ -30,7 +31,7 @@ static  void insert(){
           System.out.println("Invalid Position !");
       }else{
       System.out.println("Enter Item  to be inserted !");
-      String ele = sc.next();
+      int ele = sc.nextInt();
       for(int i=count;i>pos;i--){
           a[i]=a[i-1];
       }
@@ -62,15 +63,14 @@ System.out.println("Enter position of Element to delete !");
      System.out.println(pos+"position element is removed ");
     }
     
+
 }
-
-
 static  void search(){
     System.out.println("Enter Element to be search !");
-    String key = sc.next();
+    int key = sc.nextInt();
      boolean flag=false; int i;
     for(i=0;i<count;i++){
-    if(a[i].equals(key)){ flag=true;  break;} 
+    if(a[i]==key){ flag=true;  break;} 
     }
   if(flag){
       System.out.println(key+" is found at position "+i);

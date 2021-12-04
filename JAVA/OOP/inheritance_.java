@@ -1,3 +1,4 @@
+package OOP;
 public class inheritance_ extends area_{
     
 public static void main(String args[]){

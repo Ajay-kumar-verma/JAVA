@@ -1,3 +1,4 @@
+package PROGRAM;
 
 import java.util.Scanner;
 public class classarray{

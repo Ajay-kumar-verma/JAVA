@@ -1,3 +1,4 @@
+package PROGRAM;
 import java.util.Scanner;
 public class greater_number{
 static Scanner sc=  new Scanner(System.in);

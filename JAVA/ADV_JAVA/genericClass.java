@@ -1,3 +1,4 @@
+package ADV_JAVA;
 public class genericClass{
  
 public static void main(String[] args) {

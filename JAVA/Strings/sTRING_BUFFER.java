@@ -1,3 +1,4 @@
+package Strings;
 public class sTRING_BUFFER {
 
     public static void main(String[] args) {
